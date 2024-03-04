@@ -1,0 +1,19 @@
+.clock-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clock-time {
+    font-size: 72px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .blink {
+    animation: blink 1s infinite step-start;
+  }
+  
